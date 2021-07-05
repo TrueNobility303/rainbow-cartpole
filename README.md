@@ -30,5 +30,5 @@ Rianbow 集成了上述7大技术，并的确在鲁棒性和性能上超过远�
 
 ## Files
 
-\net DQN和replay buffer相关文件
-\results 运行结果：scores曲线
+* \net DQN和replay buffer相关文件
+* \results 运行结果：scores曲线
