@@ -7,7 +7,7 @@
 rainbow是深度强化学习的集大成者，由7大部分组成，故称rainbow
 * DQN 深度Q网络，利用神经网络估计Q值为agent采取策略
 * Double DQN 将critic DQN和actor DQN分开，分离策略和评估环节，解决DQN中取max操作造成的估计偏差，类似演员-评论家算法
-* PER(Prioritized exprience replay) 优先记忆回放，使用TD Error作为记忆的优先级，类似OHEM（Online Hard Exmaple Mining）
+* PER(Prioritized exprience replay) 优先记忆回放，使用TD Error作为记忆的优先级，类似OHEM（Online Hard Exmaple Mining，采用线段树（segmentation tree）实现
 * Duel DQN 将DQN预测的Q值分为state value和action value（advantage）两部分
 * Noisy DQN 在DQN中引入噪声层，使评估结果自带噪声，取代DQN中原本的$\epsilon$ greedy policy
 * Distribution Perspectve 认为Q值作为一种期望，其背后为一种分布，因此让DQN直接估计该分布，推广原先基于期望的Bellman方程
