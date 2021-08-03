@@ -2,6 +2,9 @@
 
 ## Abstract
 
+Using Rainbow in [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://arxiv.org/pdf/1710.02298v1.pdf) for cartpole game in gym. Rainbow constists of 7 indispensable parts: DQN, Double DQN, PER(Prioritized Exprience Replay), Duel DQN, Noisy DQN, DQN with Distribution Q values, NStep technique.
+
+
 使用rainbow进行gym上的cartpole游戏
 
 rainbow是深度强化学习的集大成者，由7大部分组成，故称rainbow
@@ -30,5 +33,5 @@ Rianbow 集成了上述7大技术，并的确在鲁棒性和性能上超过远�
 
 ## Files
 
-* \net DQN和replay buffer相关文件
-* \results 运行结果：scores曲线
+* \net: codes of DQN,replay buffer,etc.
+* \results: curves of scores in the cartpole game
